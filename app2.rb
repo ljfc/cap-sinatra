@@ -2,7 +2,7 @@ require 'sinatra'
 require 'json'
 require 'digest'
 
-class App < Sinatra::Base
+class App2 < Sinatra::Base
   before do
     content_type :json
   end
@@ -18,3 +18,4 @@ class App < Sinatra::Base
     }.to_json
   end
 end
+
