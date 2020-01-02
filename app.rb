@@ -14,7 +14,7 @@ class App < Sinatra::Base
   get '/parent/:name' do
     {
       name: params[:name],
-      digest: Digest::SHA256.base64digest params[:name]
+      digest: Digest::SHA256.base64digest(params[:name])
     }.to_json
   end
 end
