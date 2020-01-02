@@ -8,4 +8,7 @@ gem 'sinatra'
 
 group :development do
   gem 'capistrano'
+  gem 'capistrano-bundler'
+  gem 'capistrano-chruby'
+  gem 'capistrano-passenger'
 end

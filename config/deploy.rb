@@ -3,6 +3,7 @@ lock "~> 3.11.2"
 
 set :application, "cap-sinatra"
 set :repo_url, "git@github.com:ljfc/cap-sinatra"
+set :chruby_ruby, "ruby-2.6.5-p114"
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
