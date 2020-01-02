@@ -26,6 +26,7 @@ cd chruby-0.3.9/
 make install
 cd ~/ # Reset because of `cd` above.
 
+cp ~/config/chruby.sh /etc/profile.d/chruby.sh # So chruby works with other scripts.
 source /usr/local/share/chruby/chruby.sh # So we can use chruby.
 chruby ruby-2.6.5 # So we can use Ruby.
 ruby -v # Check it’s worked.
