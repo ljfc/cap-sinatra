@@ -19,7 +19,8 @@ module Shared
     def to_json
       @json ||= {
         name: self.name,
-        digest: self.digest
+        digest: self.digest,
+        from_shared: true
       }.to_json
     end
   end
