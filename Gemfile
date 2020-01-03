@@ -14,4 +14,5 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-chruby'
   gem 'capistrano-passenger'
+  gem 'capistrano-secrets-yml'
 end

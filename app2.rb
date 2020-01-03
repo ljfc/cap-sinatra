@@ -11,6 +11,10 @@ class App2 < Sinatra::Base
     { status: :ok }.to_json
   end
 
+  get '/db' do
+    DB[:children].all.to_json
+  end
+
   get '/:name' do
     p = Shared::Person.new params[:name]
     p.to_json
