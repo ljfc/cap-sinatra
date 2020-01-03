@@ -28,11 +28,13 @@ GEM
     net-scp (2.0.0)
       net-ssh (>= 2.6.5, < 6.0.0)
     net-ssh (5.2.0)
+    pg (1.2.1)
     rack (2.0.8)
     rack-protection (2.0.8.1)
       rack
     rake (13.0.1)
     ruby2_keywords (0.0.1)
+    sequel (5.28.0)
     sinatra (2.0.8.1)
       mustermann (~> 1.0)
       rack (~> 2.0)
@@ -51,6 +53,8 @@ DEPENDENCIES
   capistrano-bundler
   capistrano-chruby
   capistrano-passenger
+  pg
+  sequel
   shared!
   sinatra
 

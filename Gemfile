@@ -6,6 +6,8 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'sinatra'
 gem 'shared', path: './shared'
+gem 'sequel'
+gem 'pg'
 
 group :development do
   gem 'capistrano'
