@@ -12,7 +12,7 @@ class App < Sinatra::Base
   end
 
   get '/:name' do
-    p = Person.new params[:name]
+    p = Shared::Person.new params[:name]
     p.to_json
   end
 end
