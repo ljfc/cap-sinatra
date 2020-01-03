@@ -23,6 +23,11 @@ module Shared
         from_shared: true
       }.to_json
     end
+
+    def self.find_parent(name)
+      data = DB[:parents].where {|query| query.name =~ name }.first!
+      self.new(data[:name])
+    end
   end
 
 end

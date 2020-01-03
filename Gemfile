@@ -17,4 +17,6 @@ group :development do
   gem 'capistrano-secrets-yml'
   gem 'sqlite3'
   gem 'minitest'
+  gem 'guard'
+  gem 'guard-minitest'
 end

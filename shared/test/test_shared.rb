@@ -1,3 +1,4 @@
+puts "TestShared loaded"
 require 'minitest/autorun'
 
 require_relative '../lib/shared'
@@ -8,6 +9,7 @@ class TestShared < Minitest::Test
   end
 
   def test_something
+    #puts "TestShared#test_something"
     assert true
   end
 
