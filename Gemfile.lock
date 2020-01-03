@@ -26,6 +26,7 @@ GEM
     concurrent-ruby (1.1.5)
     i18n (1.7.0)
       concurrent-ruby (~> 1.0)
+    minitest (5.13.0)
     mustermann (1.1.0)
       ruby2_keywords (~> 0.0.1)
     net-scp (2.0.0)
@@ -43,6 +44,7 @@ GEM
       rack (~> 2.0)
       rack-protection (= 2.0.8.1)
       tilt (~> 2.0)
+    sqlite3 (1.4.2)
     sshkit (1.20.0)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
@@ -57,10 +59,12 @@ DEPENDENCIES
   capistrano-chruby
   capistrano-passenger
   capistrano-secrets-yml
+  minitest
   pg
   sequel
   shared!
   sinatra
+  sqlite3
 
 BUNDLED WITH
    1.17.2

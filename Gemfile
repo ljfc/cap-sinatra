@@ -15,4 +15,6 @@ group :development do
   gem 'capistrano-chruby'
   gem 'capistrano-passenger'
   gem 'capistrano-secrets-yml'
+  gem 'sqlite3'
+  gem 'minitest'
 end
